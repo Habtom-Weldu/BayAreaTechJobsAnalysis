@@ -67,12 +67,22 @@ Data Quality Assessment
  [x] Investigate suppressed values (*, **, etc.)
  [x] Identify cleaning requirements
 
-Later Phases (Don't Worry About Yet)
+
 Data Preparation
- Create cleaning notebook/script
- Convert numeric columns
- Handle missing values
- Create cleaned dataset
+ [x] Create cleaning notebook/script
+ [x] Convert numeric columns
+ [x] Handle missing values
+ [x] Create cleaned dataset
+ [x] Bay Area filter applied
+ [x] Tech occupation filter applied
+ [x] Major occupation rows removed
+ [x] Empty columns removed
+ [x] Numeric columns converted
+ [x] Missing values assessed
+ [x] Duplicates checked
+ [x] Data quality validated
+ [x] Clean dataset saved
+ 
 Database
  Design PostgreSQL schema
  Import cleaned data
