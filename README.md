@@ -32,7 +32,14 @@ The insights from this analysis can help job seekers, career switchers, and data
 
 ## Project Status
 
-🚧 In progress — Data acquisition and setup phase
+- [x] Ask
+- [x] Prepare
+- [x] Process
+- [x] Database Design
+- [x] Data Import
+- [ ] Analysis
+- [ ] Visualization
+- [ ] Final Report
 
 ---
 
