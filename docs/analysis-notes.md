@@ -1,13 +1,16 @@
 # Analysis Notes
 
+**SQL:** `sql/analysis/01_data_validation.sql`
+
 ## Data validation (PostgreSQL)
 
 - Source table: `bay_area_jobs.tech_jobs`
-- Total records: 89 (6 metros × 20 occupations, survey year 2025)
-- Missing values after import:
-  - `tot_emp`: 2
-  - `loc_quotient`: 2
-  - `a_median`: 1
+  **Key findings:**
+   - 89 rows loaded; 6 metros and 20 occupations covered (survey year 2025).
+   - Missing values: tot_emp (2), loc_quotient (2), a_median (1).
+   - No duplicate metro–occupation rows.
+  **Limitations:**
+   - 3 records with BLS suppressed or unpublished values (see affected records table). 
 
 ## Affected records
 
