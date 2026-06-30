@@ -84,13 +84,17 @@ Data Preparation
  [x] Clean dataset saved
  
 Database
- Design PostgreSQL schema
- Import cleaned data
+ [x] Design PostgreSQL schema
+ [x] Import cleaned data
+ 
 Analysis
- Highest-paying tech occupations
+ [x] Load validation
  Highest-demand tech occupations
+ Highest-paying tech occupations
  Bay Area tech concentration
- Employment trends
+ Metro comparison
+ Employment trends (needs more years)
+
 Visualization
  Tableau dashboard
  Project report
