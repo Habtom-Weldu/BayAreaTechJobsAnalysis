@@ -1,0 +1,13 @@
+0000000000000000000000000000000000000000 8c200bfbbb3b6c41bf6faf0d2f563517fb3d19bb Habtom <hailay.hab@gmail.com> 1780772232 -0700	commit (initial): Initial project setup
+8c200bfbbb3b6c41bf6faf0d2f563517fb3d19bb 558ec929726982cffa918c2c8d771811ab978057 Habtom <hailay.hab@gmail.com> 1780886046 -0700	commit: Add initial project README with objective and questions
+558ec929726982cffa918c2c8d771811ab978057 a87f3f03b612f1a29dd3bfad3a97d79d9d4a4473 Habtom <hailay.hab@gmail.com> 1781026067 -0700	commit: Initialize project and document data sources
+a87f3f03b612f1a29dd3bfad3a97d79d9d4a4473 0c277eef53c70ab1e255d58326afa7b8b8741f5b Habtom <hailay.hab@gmail.com> 1781060081 -0700	commit: Add initial data acquisition and exploration(explore BLS OEWS dataset)
+0c277eef53c70ab1e255d58326afa7b8b8741f5b 51d191f5cab5bfe80acab4bb4a74eae9dd196914 Habtom <hailay.hab@gmail.com> 1781123360 -0700	commit: Complete initial BLS exploration and project definitions
+51d191f5cab5bfe80acab4bb4a74eae9dd196914 9f0e234da34124b136735a67030199286e6dc77a Habtom <hailay.hab@gmail.com> 1781491669 -0700	commit: Complete data exploration and initial cleaning
+9f0e234da34124b136735a67030199286e6dc77a cc8fac51b97d9cb72972d2a45df8622b5fc75737 Habtom <hailay.hab@gmail.com> 1782284717 -0700	commit: Add PostgreSQL schema and import workflow for cleaned BLS data.
+cc8fac51b97d9cb72972d2a45df8622b5fc75737 9f0e234da34124b136735a67030199286e6dc77a Habtom <hailay.hab@gmail.com> 1782285129 -0700	reset: moving to HEAD~1
+9f0e234da34124b136735a67030199286e6dc77a 0ec9ad7e2941e25757a85eb3ae050930853b205e Habtom <hailay.hab@gmail.com> 1782285347 -0700	commit: Add PostgreSQL schema and import workflow for cleaned BLS data.
+0ec9ad7e2941e25757a85eb3ae050930853b205e b898aa952798f3deeea9ef51eebf2860925ae966 Habtom <hailay.hab@gmail.com> 1782500343 -0700	commit: Confirm the Load of data: Document PostgreSQL load validation and BLS missing-value handling.
+b898aa952798f3deeea9ef51eebf2860925ae966 4ea637b05ac1c11121f273f070b3adf1c30b6f8f Habtom <hailay.hab@gmail.com> 1782503314 -0700	commit: Complete step 1 of Analysis process: data validation analysis.
+4ea637b05ac1c11121f273f070b3adf1c30b6f8f a7b53a14820d50ed90ad8c77a0d4968a64a2d975 Habtom <hailay.hab@gmail.com> 1782840652 -0700	commit: Complete step 2 highest-demand tech occupations analysis
+a7b53a14820d50ed90ad8c77a0d4968a64a2d975 d3f7891e0c56bce8eeb44e6d3d933aaf1583aa9f habtom <hailay.hab@gmail.com> 1783106088 -0700	commit: set up local database workflow and dependency management

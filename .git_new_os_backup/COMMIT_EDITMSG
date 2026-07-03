@@ -1,0 +1,4 @@
+set up local database workflow and dependency management
+
+Add restore/setup scripts for PostgreSQL, a shared notebook DB connection helper,
+an env template, and structured requirements files to make the project easier to run locally.

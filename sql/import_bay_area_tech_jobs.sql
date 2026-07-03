@@ -1,10 +1,9 @@
 -- Import data/processed/bay_area_tech_jobs.csv into bay_area_jobs.tech_jobs
 --
--- Prerequisites:
---   1. psql -f sql/schema.sql
---   2. From repo root:
---      psql ... -c "\copy bay_area_jobs.staging_bay_area_tech_jobs FROM 'data/processed/bay_area_tech_jobs.csv' WITH (FORMAT csv, HEADER true, QUOTE '\"', ESCAPE '\"')"
---   3. psql ... -f sql/import_bay_area_tech_jobs.sql
+-- Prerequisites: run ./scripts/restore_db.sh from the repo root, or:
+--   1. psql -d bayarea_tech_jobs_db -f sql/schema.sql
+--   2. psql -d bayarea_tech_jobs_db -c "\copy bay_area_jobs.staging_bay_area_tech_jobs FROM 'data/processed/bay_area_tech_jobs.csv' WITH (FORMAT csv, HEADER true, QUOTE '\"', ESCAPE '\"')"
+--   3. psql -d bayarea_tech_jobs_db -f sql/import_bay_area_tech_jobs.sql
 --
 -- survey_year 2025 matches BLS release M2025. Change when loading other years.
 
