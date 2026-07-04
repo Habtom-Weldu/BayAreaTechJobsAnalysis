@@ -1,0 +1,8 @@
+.venv/
+.git/
+.git_new_os_backup/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.env
+data/raw/

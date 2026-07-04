@@ -27,6 +27,51 @@ The insights from this analysis can help job seekers, career switchers, and data
 * Tableau
 * Visual Studio Code
 * Git & GitHub
+* Docker
+
+---
+
+## Docker Setup
+
+Full guide: [docs/docker-setup.md](docs/docker-setup.md)
+
+Full-stack setup with PostgreSQL and JupyterLab.
+
+```bash
+cp .env.example .env
+docker compose up --build
+```
+
+Services:
+
+- JupyterLab: [http://localhost:8888](http://localhost:8888)
+- PostgreSQL: `localhost:5433` (default; avoids conflict with a local Postgres on 5432)
+
+On first startup, Postgres loads schema and data from `sql/` and `data/processed/`.
+Data persists in the `postgres_data` Docker volume.
+
+Useful commands:
+
+```bash
+# Rebuild and start
+docker compose up --build
+
+# Stop containers
+docker compose down
+
+# Reset database volume and reload from scratch
+docker compose down -v
+docker compose up --build
+
+# Manual restore inside running containers
+docker compose exec notebook ./scripts/restore_db.sh
+```
+
+From your host machine (outside Docker), connect with:
+
+```text
+postgresql+psycopg2://postgres:postgres@localhost:5433/bayarea_tech_jobs_db
+```
 
 ---
 
