@@ -89,10 +89,10 @@ Database
  
 Analysis
  [x] Load validation
- Highest-demand tech occupations
- Highest-paying tech occupations
- Bay Area tech concentration
- Metro comparison
+ [x] Highest-demand tech occupations
+ [x] Highest-paying tech occupations
+ [x] Bay Area tech concentration
+ [x] Metro comparison
  Employment trends (needs more years)
 
 Visualization
