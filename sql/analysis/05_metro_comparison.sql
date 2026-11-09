@@ -53,6 +53,10 @@ WHERE occ_code = '15-1252'
 ORDER BY tot_emp DESC NULLS LAST;
 
 -- 4. Top-paying occupation in each metro
+/* In this query,
+Sorting puts the top paying occupation first per metro; 
+DISTINCT ON keeps that first row.*/
+
 SELECT DISTINCT ON (area_title)
     area_title,
     occ_title,
