@@ -7,6 +7,11 @@ This project analyzes technology job market trends in the San Francisco Bay Area
 The insights from this analysis can help job seekers, career switchers, and data enthusiasts better understand the current tech job landscape.
 
 ---
+#### Interactive viz (Tableau Public):
+Dashboard: <https://public.tableau.com/app/profile/habtom.hailay/viz/Bay_Area_Tech_Jobs_Viz/BayAreaTechJobs> 
+
+Two tabs: Jobs, and occupations (demand, pay, concentration).
+BLS reports metros, not counties; But the map assigns each metro’s location quotient to its counties.
 
 ## Key Questions
 
@@ -82,8 +87,8 @@ postgresql+psycopg2://postgres:postgres@localhost:5433/bayarea_tech_jobs_db
 - [x] Process
 - [x] Database Design
 - [x] Data Import
-- [ ] Analysis
-- [ ] Visualization
+- [x] Analysis
+- [x] Visualization
 - [ ] Final Report
 
 ---
