@@ -115,3 +115,6 @@
 - Occupation coverage differs by metro (7 occupations in Napa vs 19–20 in the core metros).
 - Average wage/LQ metrics are not employment-weighted.
 - Single survey year (2025); no trend comparison yet.
+
+## Interactive viz (Tableau Public) 
+Dashboard: <https://public.tableau.com/app/profile/habtom.hailay/viz/Bay_Area_Tech_Jobs_Viz/BayAreaTechJobs>

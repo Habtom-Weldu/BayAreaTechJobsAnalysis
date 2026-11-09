@@ -89,7 +89,7 @@ postgresql+psycopg2://postgres:postgres@localhost:5433/bayarea_tech_jobs_db
 - [x] Data Import
 - [x] Analysis
 - [x] Visualization
-- [ ] Final Report
+- [X] Final Report
 
 ---
 
